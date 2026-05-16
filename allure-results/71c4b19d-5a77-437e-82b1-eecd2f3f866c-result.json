@@ -1,0 +1,145 @@
+{
+  "uuid": "71c4b19d-5a77-437e-82b1-eecd2f3f866c",
+  "name": "Verify Product API",
+  "historyId": "24f9fc1150eb99a537067b374ceaa273:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND reqres.in\nCall log:\n  - → GET https://reqres.in/api/users/2\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.15 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n",
+    "trace": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND reqres.in\nCall log:\n  - → GET https://reqres.in/api/users/2\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.15 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\api\\ProductAPI.spec.ts:5:36"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1778438194095,
+              "uuid": "6880b322-e616-4714-9dc2-e050f3e9b240",
+              "stop": 1778438194104
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1778438194090,
+          "uuid": "21fd8ee9-1a2b-4bcd-b79e-d38a8779db30",
+          "stop": 1778438194110
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778438194073,
+      "uuid": "f8351b60-868b-4f75-9129-fff16f3f25ff",
+      "stop": 1778438194110
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND reqres.in\nCall log:\n  - → GET https://reqres.in/api/users/2\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.15 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n",
+        "trace": "Error: apiRequestContext.get: getaddrinfo ENOTFOUND reqres.in\nCall log:\n  - → GET https://reqres.in/api/users/2\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.15 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\api\\ProductAPI.spec.ts:5:36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778438194114,
+      "name": "GET \"/api/users/2\"",
+      "uuid": "6471ff01-6ac2-4cee-8f14-1dda56a482db",
+      "stop": 1778438205205
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "1655ab6c-fa42-4349-bcf3-08b44a1a4479-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778438205317,
+      "name": "error-context",
+      "stop": 1778438205317
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "22ce2594-3113-4790-932b-b840917c7fc2-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778438205319,
+      "name": "trace",
+      "stop": 1778438205319
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1778438205210,
+          "uuid": "8bd93486-39b4-45ab-b4ff-47cfff72b18f",
+          "stop": 1778438205255
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778438205207,
+      "uuid": "d404bbe9-5599-4a72-888b-6fb3eaf2732c",
+      "stop": 1778438205269
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.ProductAPI.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\ProductAPI.spec.ts > API Tests"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-2992-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\ProductAPI.spec.ts" },
+    { "name": "subSuite", "value": "API Tests" }
+  ],
+  "links": [],
+  "start": 1778438194069,
+  "testCaseId": "24f9fc1150eb99a537067b374ceaa273",
+  "fullName": "api/ProductAPI.spec.ts:4:7",
+  "titlePath": ["api", "ProductAPI.spec.ts", "API Tests"],
+  "stop": 1778438205234
+}

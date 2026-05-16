@@ -1,0 +1,122 @@
+{
+  "uuid": "1db9e8a6-fe24-4b9f-ab80-3af87c406fb4",
+  "name": "has title",
+  "historyId": "3a2a809b453af4fd564578d1a27f3e45:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+    "trace": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+        "trace": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+            "trace": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                "trace": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\firefox-1511\\firefox\\firefox.exe\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778434510959,
+              "uuid": "1cd6dd8c-409c-4808-8745-9fdd3a22c125",
+              "stop": 1778434510965
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778434510955,
+          "uuid": "2111ef63-ee28-4607-b13f-f4cbf13eeb78",
+          "stop": 1778434510965
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778434510907,
+      "uuid": "40d261ee-f575-413f-9bbd-1f373b06a323",
+      "stop": 1778434510966
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "ad353c98-245a-46a0-b6c4-8a8bc5c194a6-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778434511044,
+      "name": "error-context",
+      "stop": 1778434511044
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "c0f8975f-0853-41c8-8faf-b896992581e1-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778434511045,
+      "name": "trace",
+      "stop": 1778434511045
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778434510966,
+      "uuid": "9829d08f-9b7e-4dfa-9d1c-a6c4fc43a364",
+      "stop": 1778434510976
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "example.spec.ts" },
+    { "name": "titlePath", "value": " > firefox > example.spec.ts" },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-6276-worker-2" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1778434510903,
+  "testCaseId": "3a2a809b453af4fd564578d1a27f3e45",
+  "fullName": "example.spec.ts:3:5",
+  "titlePath": ["example.spec.ts"],
+  "stop": 1778434510908
+}

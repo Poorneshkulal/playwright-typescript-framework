@@ -1,0 +1,51 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: api\ProductAPI.spec.ts >> API Tests >> Verify Product API
+- Location: tests\api\ProductAPI.spec.ts:7:7
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 401
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect }
+  2  | from '@playwright/test';
+  3  |
+  4  |
+  5  | test.describe('API Tests', () => {
+  6  |
+  7  |   test(
+  8  |     'Verify Product API',
+  9  |
+  10 |     async ({ request }) => {
+  11 |
+  12 |       const response =
+  13 |         await request.get(
+  14 |           'https://reqres.in/api/users/2'
+  15 |         );
+  16 |
+  17 |       expect(response.status())
+> 18 |         .toBe(200);
+     |          ^ Error: expect(received).toBe(expected) // Object.is equality
+  19 |
+  20 |       const body =
+  21 |         await response.json();
+  22 |
+  23 |       expect(body.data.id)
+  24 |         .toBe(2);
+  25 |   });
+  26 | });
+```

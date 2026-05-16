@@ -1,0 +1,70 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: visual\HomePageVisual.spec.ts >> The Internet - Visual Regression Tests >> Checkboxes Page Screenshot
+- Location: tests\visual\HomePageVisual.spec.ts:14:7
+
+# Error details
+
+```
+Error: A snapshot doesn't exist at D:\Playwrightscript\amazon-playwright-framework\tests\visual\HomePageVisual.spec.ts-snapshots\internet-checkboxes-page-chromium-win32.png, writing actual.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=e5] [cursor=pointer]
+    - generic [ref=e7]:
+      - heading "Checkboxes" [level=3] [ref=e8]
+      - generic [ref=e9]:
+        - checkbox [ref=e10]
+        - text: checkbox 1
+        - checkbox [checked] [ref=e11]
+        - text: checkbox 2
+  - generic [ref=e13]:
+    - separator [ref=e14]
+    - generic [ref=e15]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=e16] [cursor=pointer]:
+        - /url: http://elementalselenium.com/
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from "../../src/fixtures/test";
+  2  | 
+  3  | test.describe("The Internet - Visual Regression Tests", () => {
+  4  |   test("Home Page Screenshot", async ({ page, internetHomePage }) => {
+  5  |     await page.goto("https://the-internet.herokuapp.com/");
+  6  |     expect(await page.screenshot()).toMatchSnapshot("internet-home-page.png");
+  7  |   });
+  8  | 
+  9  |   test("Login Page Screenshot", async ({ page }) => {
+  10 |     await page.goto("https://the-internet.herokuapp.com/login");
+  11 |     expect(await page.screenshot()).toMatchSnapshot("internet-login-page.png");
+  12 |   });
+  13 | 
+  14 |   test("Checkboxes Page Screenshot", async ({ page }) => {
+  15 |     await page.goto("https://the-internet.herokuapp.com/checkboxes");
+> 16 |     expect(await page.screenshot()).toMatchSnapshot("internet-checkboxes-page.png");
+     |                                     ^ Error: A snapshot doesn't exist at D:\Playwrightscript\amazon-playwright-framework\tests\visual\HomePageVisual.spec.ts-snapshots\internet-checkboxes-page-chromium-win32.png, writing actual.
+  17 |   });
+  18 | 
+  19 |   test("Dropdown Page Screenshot", async ({ page }) => {
+  20 |     await page.goto("https://the-internet.herokuapp.com/dropdown");
+  21 |     expect(await page.screenshot()).toMatchSnapshot("internet-dropdown-page.png");
+  22 |   });
+  23 | });
+  24 | 
+  25 | 
+```

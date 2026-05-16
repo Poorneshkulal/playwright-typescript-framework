@@ -1,0 +1,202 @@
+{
+  "uuid": "41b3948a-830b-4c3f-a11e-7d3d2d7a688c",
+  "name": "get started link",
+  "historyId": "37e4aa066a5f6eac2e4d3b98a2ed98a7:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778434510878,
+              "uuid": "32e55c27-da7e-4d33-8a36-f3554a445953",
+              "stop": 1778434511554
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778434510870,
+          "uuid": "a99ae437-a87c-4d5d-b7a2-353b9779dce3",
+          "stop": 1778434511555
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1778434511579,
+              "uuid": "288cf88f-2921-4d19-be13-9dc335c616c7",
+              "stop": 1778434511692
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778434511558,
+          "uuid": "f5a9d4bb-a8ac-44ae-a0cd-1cd4218da7db",
+          "stop": 1778434511698
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1778434511701,
+              "uuid": "969cf907-07e3-430a-9823-d57454119a7e",
+              "stop": 1778434512165
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778434511699,
+          "uuid": "8b29c435-934e-4d51-9057-3552a4c40472",
+          "stop": 1778434512166
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778434510813,
+      "uuid": "edeacf7a-907b-4d42-9cf1-1514653ca9a6",
+      "stop": 1778434512166
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778434512170,
+      "name": "Navigate to \"/\"",
+      "uuid": "c5866adb-d03a-47e5-9448-c2b0d0184354",
+      "stop": 1778434515799
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778434515802,
+      "name": "Click getByRole('link', { name: 'Get started' })",
+      "uuid": "a477be22-71ae-4bdb-b0ea-c02365c98332",
+      "stop": 1778434516064
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778434516069,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: 'Installation' })",
+      "uuid": "7dc9589b-1154-40ed-baff-597b7431ec54",
+      "stop": 1778434516222
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778434516224,
+          "uuid": "065e703f-fc5f-4098-aa3f-78ca44bb7618",
+          "stop": 1778434516224
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1778434516447,
+              "uuid": "bf27e7f9-86b2-4a8b-8bac-f4f921cc0252",
+              "stop": 1778434516612
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778434516225,
+          "uuid": "e242d7be-d16a-4789-ac70-7c3f3be69a4f",
+          "stop": 1778434516612
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778434516223,
+      "uuid": "6b3b3060-2c43-457c-8710-d3d2747b643a",
+      "stop": 1778434516625
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "example.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > example.spec.ts" },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-6276-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1778434510811,
+  "testCaseId": "37e4aa066a5f6eac2e4d3b98a2ed98a7",
+  "fullName": "example.spec.ts:10:5",
+  "titlePath": ["example.spec.ts"],
+  "stop": 1778434515877
+}

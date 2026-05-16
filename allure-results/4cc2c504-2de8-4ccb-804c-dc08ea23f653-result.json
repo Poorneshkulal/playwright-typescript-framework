@@ -1,0 +1,288 @@
+{
+  "uuid": "4cc2c504-2de8-4ccb-804c-dc08ea23f653",
+  "name": "Verify Login Page",
+  "historyId": "f0282527e0c3ac3d29a6326021633be1:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n\n    at Function.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\utils\\ElementUtil.ts:28:8)\n    at LoginPage.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\BasePage.ts:31:23)\n    at LoginPage.verifyLoginPage (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\LoginPage.ts:47:16)\n    at LoginWorkflow.openLogin (D:\\Playwrightscript\\amazon-playwright-framework\\src\\workflows\\LoginWorkflow.ts:24:8)\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\smoke\\Login.spec.ts:20:7"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778437143723,
+              "uuid": "92ccd72d-4338-4cc9-90c0-6aecd8cfc5e2",
+              "stop": 1778437143973
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778437143720,
+          "uuid": "b8949742-fe5f-4a66-b9ca-4223b0537891",
+          "stop": 1778437143973
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1778437143978,
+              "uuid": "ccb763bb-f3fc-47ac-9986-5bdf4ed2790b",
+              "stop": 1778437144008
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778437143975,
+          "uuid": "929490a2-e221-42af-834a-1842089b0f3c",
+          "stop": 1778437144014
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1778437144016,
+              "uuid": "2ae44f20-a5d4-466c-9fef-069fabb52892",
+              "stop": 1778437144295
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778437144014,
+          "uuid": "419e5cb2-0736-4f26-bc79-8e6a30e984f3",
+          "stop": 1778437144295
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778437143706,
+      "uuid": "ab45e878-3326-4aaa-a093-25f2309d2a0f",
+      "stop": 1778437144295
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778437144296,
+      "name": "Navigate to \"/\"",
+      "uuid": "0615e426-37ac-400c-98d8-df676662bf3b",
+      "stop": 1778437147280
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778437147289,
+      "name": "Wait for selector locator('#nav-link-accountList')",
+      "uuid": "bb3d5c8a-2235-4584-b04a-0d61871b1349",
+      "stop": 1778437152501
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778437152520,
+      "name": "Click locator('#nav-link-accountList')",
+      "uuid": "d8f9a4c8-ccb6-40ba-b706-fea8fa23963a",
+      "stop": 1778437153227
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n\n    at Function.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\utils\\ElementUtil.ts:28:8)\n    at LoginPage.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\BasePage.ts:31:23)\n    at LoginPage.verifyLoginPage (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\LoginPage.ts:47:16)\n    at LoginWorkflow.openLogin (D:\\Playwrightscript\\amazon-playwright-framework\\src\\workflows\\LoginWorkflow.ts:24:8)\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\smoke\\Login.spec.ts:20:7"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778437153230,
+      "name": "Expect \"toBeVisible\" locator('#ap_email')",
+      "uuid": "f374e99a-6896-44cf-a331-be6cf1ebae61",
+      "stop": 1778437158245
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "f3ab6f56-78bb-4c87-8d01-47b878b6bf6f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1778437159096,
+      "name": "screenshot",
+      "stop": 1778437159096
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "a41abcd5-abfc-4dba-9420-3787874f8b7e-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1778437159097,
+      "name": "video",
+      "stop": 1778437159097
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "bb523e43-c6d2-4d78-af87-68db1c079e2a-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778437159097,
+      "name": "error-context",
+      "stop": 1778437159097
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "24215c47-a16e-44bc-8c9b-693a178b977d-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778437159098,
+      "name": "trace",
+      "stop": 1778437159098
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778437158319,
+          "uuid": "32c7ad0d-b346-4999-b986-423fb050c7bf",
+          "stop": 1778437158319
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1778437158580,
+              "uuid": "7b3fbc35-a88f-4f5a-b03c-2d9e6b9ab393",
+              "stop": 1778437158655
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778437158319,
+          "uuid": "9aa4171c-8c03-4b8b-82b8-261c0e7f4597",
+          "stop": 1778437158659
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778437158246,
+      "uuid": "abb5d007-f5c8-45d2-aa71-71436435de8a",
+      "stop": 1778437158700
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "smoke.Login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > smoke\\Login.spec.ts > Smoke Tests"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-8068-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "smoke\\Login.spec.ts" },
+    { "name": "subSuite", "value": "Smoke Tests" }
+  ],
+  "links": [],
+  "start": 1778437143705,
+  "testCaseId": "f0282527e0c3ac3d29a6326021633be1",
+  "fullName": "smoke/Login.spec.ts:10:7",
+  "titlePath": ["smoke", "Login.spec.ts", "Smoke Tests"],
+  "stop": 1778437158398
+}

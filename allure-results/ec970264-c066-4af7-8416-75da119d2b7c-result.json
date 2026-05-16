@@ -1,0 +1,252 @@
+{
+  "uuid": "ec970264-c066-4af7-8416-75da119d2b7c",
+  "name": "Verify Login Page",
+  "historyId": "f0282527e0c3ac3d29a6326021633be1:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n",
+    "trace": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\smoke\\Login.spec.ts:15:18"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778436965965,
+              "uuid": "9baf199b-e279-4cef-be7f-19213b61b00c",
+              "stop": 1778436966226
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778436965962,
+          "uuid": "c0457995-9fdf-41c9-90de-083833596072",
+          "stop": 1778436966226
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1778436966231,
+              "uuid": "f6c8c76f-42e5-4d21-a1d9-c5446c78ee05",
+              "stop": 1778436966264
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436966228,
+          "uuid": "268bcccb-bc04-4a7d-8e0c-42dc2d72236f",
+          "stop": 1778436966270
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1778436966288,
+              "uuid": "27f10636-2a22-4175-833a-7d1a65e91e69",
+              "stop": 1778436966529
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436966270,
+          "uuid": "68b2edd0-ed73-4981-a106-2477509c04ad",
+          "stop": 1778436966529
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778436965944,
+      "uuid": "75f75740-5e07-422e-a05f-0c3d0e1b60ce",
+      "stop": 1778436966529
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n",
+        "trace": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\smoke\\Login.spec.ts:15:18"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436966532,
+      "name": "Navigate to \"/\"",
+      "uuid": "422bb942-d52e-4409-b36a-94b2d85e6e68",
+      "stop": 1778436966543
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "b1548fb6-6e70-48d8-99a4-5bc302e08506-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436967103,
+      "name": "screenshot",
+      "stop": 1778436967103
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "b3ae5470-3c82-4223-8f3e-e3fc24cab74f-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436967103,
+      "name": "video",
+      "stop": 1778436967103
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "35012425-53d9-446d-9400-8595c4ee2f94-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436967104,
+      "name": "error-context",
+      "stop": 1778436967104
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "a66d2e96-ccb5-4090-9784-df999e98822f-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436967104,
+      "name": "trace",
+      "stop": 1778436967104
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436966651,
+          "uuid": "87f982c4-7f21-4dc1-905f-e37798d6daf8",
+          "stop": 1778436966651
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1778436966696,
+              "uuid": "f57c467f-f80e-4787-a7ba-1d59586a064d",
+              "stop": 1778436966781
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436966652,
+          "uuid": "52dbd035-e403-4821-97b8-b440afdd34cc",
+          "stop": 1778436966784
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778436966544,
+      "uuid": "19455473-68b8-445d-91ff-75b02312d534",
+      "stop": 1778436966800
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "smoke.Login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > smoke\\Login.spec.ts > Smoke Tests"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-6116-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "smoke\\Login.spec.ts" },
+    { "name": "subSuite", "value": "Smoke Tests" }
+  ],
+  "links": [],
+  "start": 1778436965943,
+  "testCaseId": "f0282527e0c3ac3d29a6326021633be1",
+  "fullName": "smoke/Login.spec.ts:10:7",
+  "titlePath": ["smoke", "Login.spec.ts", "Smoke Tests"],
+  "stop": 1778436966504
+}

@@ -1,0 +1,157 @@
+{
+  "uuid": "1749ccfa-4c75-41ac-b18a-0410666f24c4",
+  "name": "Verify Product API",
+  "historyId": "24f9fc1150eb99a537067b374ceaa273:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 401",
+    "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 401\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\api\\ProductAPI.spec.ts:18:10"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1778437185234,
+              "uuid": "8904b0f4-53d8-47d0-9826-551ed807a37c",
+              "stop": 1778437185237
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1778437185232,
+          "uuid": "f4e443b7-1fb5-4117-97b2-05d77a8da484",
+          "stop": 1778437185240
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778437185212,
+      "uuid": "68df1c65-9471-495f-91b2-75403063d0ee",
+      "stop": 1778437185240
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778437185241,
+      "name": "GET \"/api/users/2\"",
+      "uuid": "07e19fca-dac3-4e5d-b053-52477b8afa31",
+      "stop": 1778437185691
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 401",
+        "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 401\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\api\\ProductAPI.spec.ts:18:10"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778437185693,
+      "name": "Expect \"toBe\"",
+      "uuid": "2df0dace-71b0-44f2-b7e5-8a6dd393c0b2",
+      "stop": 1778437185694
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "4fa5f088-9786-4d04-8ad3-1a913dbe0418-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778437185765,
+      "name": "error-context",
+      "stop": 1778437185765
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "aa2c04fc-8b5e-43ea-8cb6-c1f32ec19275-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778437185766,
+      "name": "trace",
+      "stop": 1778437185766
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1778437185696,
+          "uuid": "965c866a-1ccb-4b04-b155-d76138be9f4c",
+          "stop": 1778437185723
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778437185695,
+      "uuid": "b3f827ad-9a8f-4b89-be25-3cd6d868e421",
+      "stop": 1778437185730
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.ProductAPI.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > firefox > api\\ProductAPI.spec.ts > API Tests"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-8068-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "api\\ProductAPI.spec.ts" },
+    { "name": "subSuite", "value": "API Tests" }
+  ],
+  "links": [],
+  "start": 1778437185213,
+  "testCaseId": "24f9fc1150eb99a537067b374ceaa273",
+  "fullName": "api/ProductAPI.spec.ts:7:7",
+  "titlePath": ["api", "ProductAPI.spec.ts", "API Tests"],
+  "stop": 1778437185706
+}

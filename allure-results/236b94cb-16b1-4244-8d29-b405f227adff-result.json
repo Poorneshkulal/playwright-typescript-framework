@@ -1,0 +1,252 @@
+{
+  "uuid": "236b94cb-16b1-4244-8d29-b405f227adff",
+  "name": "Homepage Screenshot Validation",
+  "historyId": "85b60e0728707c9192490f77900c0ba1:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n",
+    "trace": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\visual\\HomePageVisual.spec.ts:12:18"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778436555767,
+              "uuid": "a1f4ebe4-53f5-4796-9dc1-60e16a97ae17",
+              "stop": 1778436556033
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778436555761,
+          "uuid": "9eb01e3f-a478-47c0-bbff-8c99131873cd",
+          "stop": 1778436556033
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1778436556038,
+              "uuid": "28fba787-bef9-4587-a71d-b82ebc61ce1e",
+              "stop": 1778436556070
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436556035,
+          "uuid": "269786ca-454b-46cc-9e0b-98880094b2d4",
+          "stop": 1778436556076
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1778436556094,
+              "uuid": "826121b2-0292-40c8-accc-67ce69bccc6d",
+              "stop": 1778436556337
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436556083,
+          "uuid": "cdf4000b-2c55-423d-92fd-b97758350231",
+          "stop": 1778436556337
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778436555748,
+      "uuid": "68380387-d608-4853-9a4e-aea1f08d28df",
+      "stop": 1778436556337
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n",
+        "trace": "Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/\", waiting until \"load\"\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\visual\\HomePageVisual.spec.ts:12:18"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436556340,
+      "name": "Navigate to \"/\"",
+      "uuid": "ef84a095-f729-4a19-a7f1-b24fce56e225",
+      "stop": 1778436556350
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "e49e1b6c-8a7a-4a18-8ab7-4f25b9c26f86-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436556886,
+      "name": "screenshot",
+      "stop": 1778436556886
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "bb167989-11f4-4b9c-a4fd-b85f4a4cb5c2-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436556887,
+      "name": "video",
+      "stop": 1778436556887
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "6ac7d855-198c-48f3-bb80-f8efc7bf6a82-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436556887,
+      "name": "error-context",
+      "stop": 1778436556887
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "f0e59657-0bcd-42f4-add1-5ab84f488305-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436556888,
+      "name": "trace",
+      "stop": 1778436556888
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436556465,
+          "uuid": "4b67f03f-9db4-4ccc-92ca-879c4ff4b3c7",
+          "stop": 1778436556466
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1778436556507,
+              "uuid": "40c7c1b8-4255-491b-9bcc-fbc326bd337c",
+              "stop": 1778436556590
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436556466,
+          "uuid": "3d80d1c9-ade0-4f49-9755-e6d66395a23d",
+          "stop": 1778436556595
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778436556351,
+      "uuid": "fe3a5e1e-100e-4e3d-b006-90d38d225ed1",
+      "stop": 1778436556606
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "visual.HomePageVisual.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > visual\\HomePageVisual.spec.ts > Visual Tests"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-15704-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "visual\\HomePageVisual.spec.ts" },
+    { "name": "subSuite", "value": "Visual Tests" }
+  ],
+  "links": [],
+  "start": 1778436555748,
+  "testCaseId": "85b60e0728707c9192490f77900c0ba1",
+  "fullName": "visual/HomePageVisual.spec.ts:7:7",
+  "titlePath": ["visual", "HomePageVisual.spec.ts", "Visual Tests"],
+  "stop": 1778436556296
+}

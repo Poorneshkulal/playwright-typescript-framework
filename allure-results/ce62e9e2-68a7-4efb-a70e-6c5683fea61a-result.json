@@ -1,0 +1,252 @@
+{
+  "uuid": "ce62e9e2-68a7-4efb-a70e-6c5683fea61a",
+  "name": "Search Product And Add To Cart",
+  "historyId": "2dc95514cb0ac21f9ce6f5cf46aa13da:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.amazon.in/\nCall log:\n  - navigating to \"https://www.amazon.in/\", waiting until \"load\"\n",
+    "trace": "Error: page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.amazon.in/\nCall log:\n  - navigating to \"https://www.amazon.in/\", waiting until \"load\"\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\regression\\AmazonE2E.spec.ts:15:18"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778436902425,
+              "uuid": "b4279b8d-c4ac-46d4-8c40-b04634f43b9f",
+              "stop": 1778436902696
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778436902422,
+          "uuid": "6065405b-cdcb-4b1c-8d67-3c8d64db479d",
+          "stop": 1778436902696
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1778436902701,
+              "uuid": "07c82963-693b-422e-97a4-84256e541f2c",
+              "stop": 1778436902736
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436902698,
+          "uuid": "f7278a28-af43-4774-a58a-f4ac6fab3648",
+          "stop": 1778436902759
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1778436902761,
+              "uuid": "a360d6ad-4ffb-44af-b207-87ec0e7d42ad",
+              "stop": 1778436903030
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436902759,
+          "uuid": "b59b0680-0934-4a83-a9de-297b43af7d46",
+          "stop": 1778436903030
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778436902408,
+      "uuid": "51e739b7-4692-4df7-b322-923c59313c17",
+      "stop": 1778436903030
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.amazon.in/\nCall log:\n  - navigating to \"https://www.amazon.in/\", waiting until \"load\"\n",
+        "trace": "Error: page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.amazon.in/\nCall log:\n  - navigating to \"https://www.amazon.in/\", waiting until \"load\"\n\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\regression\\AmazonE2E.spec.ts:15:18"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436903032,
+      "name": "Navigate to \"/\"",
+      "uuid": "51bd4d68-6483-4979-8a7a-2c2904e5bd50",
+      "stop": 1778436935359
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "44733825-c6c9-404c-a245-7decaf112879-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436937552,
+      "name": "screenshot",
+      "stop": 1778436937552
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "f87ae7ba-ba3e-40be-802a-bda2c8b91f20-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436937553,
+      "name": "video",
+      "stop": 1778436937553
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "a32677b4-e6a1-48b3-ba6f-9bcbe7f26f0e-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436937554,
+      "name": "error-context",
+      "stop": 1778436937554
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "adc58270-537d-4642-96fa-04d777f37574-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436937554,
+      "name": "trace",
+      "stop": 1778436937554
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436935473,
+          "uuid": "85cb70a1-e8ff-44ab-8b57-01ab081f63bb",
+          "stop": 1778436935474
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1778436935530,
+              "uuid": "1024ddce-bc4b-4817-a5b5-d587b2167cad",
+              "stop": 1778436937308
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436935474,
+          "uuid": "c8dd33bf-714d-4b4c-9c6b-e47526510284",
+          "stop": 1778436937312
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778436935360,
+      "uuid": "627b51a5-e69f-443d-a47c-1e7873ba0831",
+      "stop": 1778436937323
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "regression.AmazonE2E.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > regression\\AmazonE2E.spec.ts > Amazon E2E"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-6116-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "regression\\AmazonE2E.spec.ts" },
+    { "name": "subSuite", "value": "Amazon E2E" }
+  ],
+  "links": [],
+  "start": 1778436902408,
+  "testCaseId": "2dc95514cb0ac21f9ce6f5cf46aa13da",
+  "fullName": "regression/AmazonE2E.spec.ts:10:7",
+  "titlePath": ["regression", "AmazonE2E.spec.ts", "Amazon E2E"],
+  "stop": 1778436937023
+}

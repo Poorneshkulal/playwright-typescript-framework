@@ -1,0 +1,348 @@
+{
+  "uuid": "f5e9abd3-a6ee-4516-8ef3-4555744c4968",
+  "name": "Verify Login Page",
+  "historyId": "f0282527e0c3ac3d29a6326021633be1:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n\n    at LoginPage.verifyLoginPage (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\LoginPage.ts:29:30)\n    at LoginWorkflow.openLogin (D:\\Playwrightscript\\amazon-playwright-framework\\src\\workflows\\LoginWorkflow.ts:18:26)\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\smoke\\Login.spec.ts:6:5"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778438258512,
+              "uuid": "9c9d41e2-7ff6-4117-b81c-d33e72cdb505",
+              "stop": 1778438258934
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778438258505,
+          "uuid": "97e0d566-ebcc-418c-83c6-12e000a1f9e5",
+          "stop": 1778438258935
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1778438258946,
+              "uuid": "259a0195-747c-4ffa-a5ff-9debd1f773dd",
+              "stop": 1778438258980
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778438258939,
+          "uuid": "30a5e870-f6e9-46f3-bd46-f2f33867944b",
+          "stop": 1778438258992
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1778438258997,
+              "uuid": "0805c990-7d6f-49e3-a6a4-5248b91986f0",
+              "stop": 1778438259271
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778438258993,
+          "uuid": "ddbc59a6-92cb-498f-b3dc-c9cf3ab1d171",
+          "stop": 1778438259271
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1778438259272,
+          "uuid": "623feaf9-0964-43aa-85ea-a97db71032f8",
+          "stop": 1778438259273
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginPage\"",
+          "start": 1778438259274,
+          "uuid": "1c8b381a-b2be-4378-8f78-a7f24e63a8b2",
+          "stop": 1778438259274
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginWorkflow\"",
+          "start": 1778438259275,
+          "uuid": "db5dfec9-bc33-4296-9379-7619fe891287",
+          "stop": 1778438259276
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778438258481,
+      "uuid": "89327e6b-0b3f-4ef4-8428-ddc6fa9f55a7",
+      "stop": 1778438259276
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778438259280,
+      "name": "Navigate to \"/\"",
+      "uuid": "a2ec798f-2edb-4c97-a435-ba21727032bc",
+      "stop": 1778438268005
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778438268020,
+      "name": "Click locator('#nav-link-accountList')",
+      "uuid": "25af6e17-6450-4863-bd78-93890676dc4d",
+      "stop": 1778438276568
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#ap_email')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#ap_email')\n\n    at LoginPage.verifyLoginPage (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\LoginPage.ts:29:30)\n    at LoginWorkflow.openLogin (D:\\Playwrightscript\\amazon-playwright-framework\\src\\workflows\\LoginWorkflow.ts:18:26)\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\smoke\\Login.spec.ts:6:5"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778438276570,
+      "name": "Expect \"toBeVisible\" locator('#ap_email')",
+      "uuid": "05199d11-c202-44ca-bfa4-6e5e8c6727c4",
+      "stop": 1778438281694
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "cec38956-d782-4cd3-8836-5fbb2cce9f2c-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1778438285906,
+      "name": "screenshot",
+      "stop": 1778438285906
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "e0b407b0-3363-4af9-b8b5-6a6ae3bb58b7-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1778438285911,
+      "name": "video",
+      "stop": 1778438285911
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "f89fb45c-a95a-4f89-a139-b673fa474500-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778438285914,
+      "name": "error-context",
+      "stop": 1778438285914
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "6ccc211a-2fe2-4b73-a16c-22445a7fea8b-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778438285917,
+      "name": "trace",
+      "stop": 1778438285917
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginWorkflow\"",
+          "start": 1778438282002,
+          "uuid": "40c8e13e-a5f6-4854-a71c-4479edd66d34",
+          "stop": 1778438282002
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginPage\"",
+          "start": 1778438282003,
+          "uuid": "e2ca620a-d9ae-435d-9028-2efe01a967dd",
+          "stop": 1778438282003
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1778438282004,
+          "uuid": "49e868bc-6860-4f35-a1fb-c1c1e16f1f88",
+          "stop": 1778438282004
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778438282005,
+          "uuid": "e387a1a6-3f89-41e7-9ba5-389869c25226",
+          "stop": 1778438282005
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1778438283081,
+              "uuid": "7f395d65-a572-42f5-980d-532c95a7e1ed",
+              "stop": 1778438283508
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778438282006,
+          "uuid": "65a89c22-5fa3-481b-a3c8-be74b2831897",
+          "stop": 1778438283525
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778438281696,
+      "uuid": "f998c4d6-2111-4091-8a92-65568f9a2604",
+      "stop": 1778438283637
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "smoke.Login.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > smoke\\Login.spec.ts > Smoke Tests"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-2992-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "smoke\\Login.spec.ts" },
+    { "name": "subSuite", "value": "Smoke Tests" }
+  ],
+  "links": [],
+  "start": 1778438258477,
+  "testCaseId": "f0282527e0c3ac3d29a6326021633be1",
+  "fullName": "smoke/Login.spec.ts:4:7",
+  "titlePath": ["smoke", "Login.spec.ts", "Smoke Tests"],
+  "stop": 1778438283062
+}

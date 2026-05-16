@@ -1,0 +1,131 @@
+{
+  "uuid": "95ddadd5-3556-46c8-b09c-30ee959663ee",
+  "name": "Verify Product API",
+  "historyId": "24f9fc1150eb99a537067b374ceaa273:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1778436143878,
+              "uuid": "bfba652b-f3d6-4b71-b30c-91cef86d120a",
+              "stop": 1778436143881
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1778436143873,
+          "uuid": "8aec9507-d63a-4720-a487-6a428ce25f3d",
+          "stop": 1778436143884
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778436143858,
+      "uuid": "b37bf9a7-8989-4844-996c-7921601b05dc",
+      "stop": 1778436143884
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436143885,
+      "name": "GET \"/api/users/2\"",
+      "uuid": "b52f54c1-c1da-42a4-b8e7-e47c276e807b",
+      "stop": 1778436144005
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436144006,
+      "name": "Expect \"toBe\"",
+      "uuid": "b68cce61-8562-4113-aa7d-d59e11e30239",
+      "stop": 1778436144007
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436144008,
+      "name": "Expect \"toBe\"",
+      "uuid": "4b10b744-5cae-4253-9e6c-3b229ebc3ef6",
+      "stop": 1778436144008
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1778436144009,
+          "uuid": "e23ee4f2-8dac-4357-8687-95f43996b141",
+          "stop": 1778436144024
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778436144009,
+      "uuid": "ab8b206b-2a71-4ff2-94be-e0debae3a992",
+      "stop": 1778436144029
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.ProductAPI.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\ProductAPI.spec.ts > API Tests"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-15376-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\ProductAPI.spec.ts" },
+    { "name": "subSuite", "value": "API Tests" }
+  ],
+  "links": [],
+  "start": 1778436143858,
+  "testCaseId": "24f9fc1150eb99a537067b374ceaa273",
+  "fullName": "api/ProductAPI.spec.ts:7:7",
+  "titlePath": ["api", "ProductAPI.spec.ts", "API Tests"],
+  "stop": 1778436144011
+}

@@ -1,0 +1,264 @@
+{
+  "uuid": "65031763-9050-419d-9d8f-535385c089fe",
+  "name": "Search Product And Add To Cart",
+  "historyId": "2dc95514cb0ac21f9ce6f5cf46aa13da:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#twotabsearchtextbox')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#twotabsearchtextbox')\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#twotabsearchtextbox')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#twotabsearchtextbox')\n\n    at Function.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\utils\\ElementUtil.ts:28:8)\n    at HomePage.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\BasePage.ts:31:23)\n    at HomePage.verifySearchBoxVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\HomePage.ts:37:16)\n    at AmazonWorkflow.searchAndAddProduct (D:\\Playwrightscript\\amazon-playwright-framework\\src\\workflows\\AmazonWorkflow.ts:37:8)\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\regression\\AmazonE2E.spec.ts:20:22"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1778436489624,
+              "uuid": "6370100f-b1ac-488b-aecd-e71bd914b45e",
+              "stop": 1778436489893
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1778436489621,
+          "uuid": "4e4a0e50-69a1-4134-8524-e546ef560cd3",
+          "stop": 1778436489893
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1778436489899,
+              "uuid": "b54851f2-bafb-440d-9c25-775b12239d75",
+              "stop": 1778436489934
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436489896,
+          "uuid": "83c5dff2-24f4-4001-b499-88c50647aff4",
+          "stop": 1778436489953
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1778436489958,
+              "uuid": "e0ed4294-ca68-4245-9af1-c6b5ab37fe46",
+              "stop": 1778436490210
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436489956,
+          "uuid": "bcdea7b2-1917-42be-be9d-a9fb77d6a509",
+          "stop": 1778436490210
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1778436489608,
+      "uuid": "7252c5a9-5943-451a-9140-68cdfdfba1fe",
+      "stop": 1778436490211
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436490213,
+      "name": "Navigate to \"/\"",
+      "uuid": "aa434e55-4d99-4789-bb69-e3c77b2e3ca9",
+      "stop": 1778436520575
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#twotabsearchtextbox')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#twotabsearchtextbox')\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: locator('#twotabsearchtextbox')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 5000ms\n  - waiting for locator('#twotabsearchtextbox')\n\n    at Function.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\utils\\ElementUtil.ts:28:8)\n    at HomePage.verifyVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\BasePage.ts:31:23)\n    at HomePage.verifySearchBoxVisible (D:\\Playwrightscript\\amazon-playwright-framework\\src\\pages\\HomePage.ts:37:16)\n    at AmazonWorkflow.searchAndAddProduct (D:\\Playwrightscript\\amazon-playwright-framework\\src\\workflows\\AmazonWorkflow.ts:37:8)\n    at D:\\Playwrightscript\\amazon-playwright-framework\\tests\\regression\\AmazonE2E.spec.ts:20:22"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1778436520587,
+      "name": "Expect \"toBeVisible\" locator('#twotabsearchtextbox')",
+      "uuid": "2125204f-4b85-4903-bdba-6e4302491ebe",
+      "stop": 1778436525611
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "027ffa88-3a1a-46f7-83b9-78a7a454c171-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436526428,
+      "name": "screenshot",
+      "stop": 1778436526428
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "1b89d0fd-2c1e-4e7a-906b-2d865aeae9ab-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436526429,
+      "name": "video",
+      "stop": 1778436526429
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "d3b4a98b-8af6-4d1b-87a6-9cd51e49378f-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436526430,
+      "name": "error-context",
+      "stop": 1778436526430
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "ac9f05b4-b599-476f-a556-cd61c3007537-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1778436526430,
+      "name": "trace",
+      "stop": 1778436526430
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1778436525671,
+          "uuid": "4fd545ac-6ce9-4e7f-b3d3-8aa3ae938996",
+          "stop": 1778436525671
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1778436525732,
+              "uuid": "ca86a90d-fad6-46f1-a23a-f561ddcbb7f5",
+              "stop": 1778436526079
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1778436525672,
+          "uuid": "a939bf00-ff60-4ca2-bd98-d17493e25d1d",
+          "stop": 1778436526083
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1778436525612,
+      "uuid": "a9ccde7a-3e21-4619-b825-e612934c5c8e",
+      "stop": 1778436526094
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "regression.AmazonE2E.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > regression\\AmazonE2E.spec.ts > Amazon E2E"
+    },
+    { "name": "host", "value": "DESKTOP-RNTJ3MC" },
+    { "name": "thread", "value": "pid-15704-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "regression\\AmazonE2E.spec.ts" },
+    { "name": "subSuite", "value": "Amazon E2E" }
+  ],
+  "links": [],
+  "start": 1778436489608,
+  "testCaseId": "2dc95514cb0ac21f9ce6f5cf46aa13da",
+  "fullName": "regression/AmazonE2E.spec.ts:10:7",
+  "titlePath": ["regression", "AmazonE2E.spec.ts", "Amazon E2E"],
+  "stop": 1778436525793
+}
